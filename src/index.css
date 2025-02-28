@@ -1,0 +1,124 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+}
+.card {
+  color: white;
+  background-color: #49351d;
+  padding: 1rem;
+  font-size: medium;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  margin: 15px; 
+  height: 400px; 
+  flex: 1 1 250px; 
+  max-width: 270px;
+  position: relative;
+  
+}
+
+.card h3 {
+  margin-bottom: 5px;
+  font-family: 'Cormorant', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 5px;
+
+}
+.card p {
+  margin-top: 2px;
+}
+.card-button{
+  background-color: #6d5b57;
+  margin-top: 5px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(78, 76, 76);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for background and border color */}
+
+.card-button:hover {
+  background-color:rgb(42, 36, 29);
+  border-color:rgb(44, 37, 29);
+}
+
+.card-img {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+}
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #49351d;
+  font-size: 35px;
+  color: white;
+  max-height: 100px;
+  font-family: 'Cinzel', serif;
+  
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  max-height: 100px;
+  font-family: 'Cormorant', serif;
+  font-style: italic;
+  background-color: #49351d;
+  color: white;
+  flex-direction: column;
+}
+.footer p {
+  display: block; /* Ensure each paragraph starts on a new line */
+  margin: 5px; /* Remove default margin */
+}
+
+h1{
+  color: white;
+  
+}
+.logo {
+  width: 50px; /* Adjust the width */
+  height: 50px; /* Ensure the height scales with the width */
+  padding: 10px; /* Add padding to the logo */
+}
+
+@media (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 15px; /* Adjust margin for smaller screens */
+    flex: 1 1 auto; /* Allow cards to resize */
+    min-width: 300px; /* Ensure cards take full width on smaller screens */
+    align-item:center;
+    
+  }
+}
+
