@@ -93,8 +93,8 @@
   flex-direction: column;
 }
 .footer p {
-  display: block; /* Ensure each paragraph starts on a new line */
-  margin: 5px; /* Remove default margin */
+  display: block; 
+  margin: 5px; 
 }
 
 h1{

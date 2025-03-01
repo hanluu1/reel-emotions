@@ -12,4 +12,4 @@ Time spent: **10** hours spent in total
 - [x] **Add buttons or links to a related resource on each card component**
 - [x] **Make the site responsive for both desktop and mobile formats**
 ## Video Walkthrough
-<img src='../assets/WebsiteDramatour.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough'/>
+![Video Walkthrough](../assets/WebsiteDramatour.gif)

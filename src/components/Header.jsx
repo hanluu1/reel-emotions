@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/filmicon.png'; // Adjust the path according to your project structure
 
 const Header = () => {
     return (
